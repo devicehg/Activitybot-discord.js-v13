@@ -1,5 +1,3 @@
-const { client } = require("..")
-
 module.exports = {
     name: "ready",
     run: async (bot) => {
