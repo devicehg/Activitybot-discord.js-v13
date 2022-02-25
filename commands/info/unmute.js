@@ -35,7 +35,7 @@ module.exports = {
 
                 const unmuteSuccess = new MessageEmbed()
                 .setTitle(`${mentionedMember.user.tag} was unmuted\nby ${message.author.tag}`)
-                .setDescription(`${mentionedMember.user.tag} were unmuted!`)
+                .setDescription(`${mentionedMember.user.tag} are unmuted!`)
                 .setColor('AQUA')
                 message.channel.send({ embeds: [unmuteSuccess] })
             })
